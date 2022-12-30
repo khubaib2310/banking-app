@@ -297,6 +297,30 @@ h2 {
 }
 
 
-@media (min-width:400px ) and (max-width: 767px) {
+@media (max-width: 767px) {
+.app{
+  display: flex;
+  flex-direction: column;
+}
+}
 
+@media (min-width:288px ) and (max-width: 465px) {
+nav{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.summary{
+  flex-direction: column;
+}
+
+.btn--sort{
+  bottom: 16rem;
+  position: relative;
+}
+
+.logout-timer{
+  display: flex;
+  justify-content: center;
+}
 }
